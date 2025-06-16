@@ -1,3 +1,71 @@
 body{
-    background-color: rgb(87, 99, 98);
+    background-color: rgb(49, 62, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    color: rgb(190, 223, 221);
+    margin-bottom: 5px;
+}
+
+.slogan{
+    color: rgb(120, 148, 146);
+    margin-top: 10px;
+}
+
+header p{
+    color: rgb(190, 223, 221);
+    font-size: 15px;
+    padding: 10px 150px 20px 150px;
+}
+
+.perfil{
+    width: 150px;
+    height: 150pxx;
+    border-radius: 50%;
+}
+.hobbies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.hobbies img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid rgb(190, 223, 221);
+}
+
+.hobbies p{
+    text-align: center;
+    color: rgb(190, 223, 221);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 100px
+}
+.flex div{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(124, 150, 148);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.flex p{
+    color: rgb(37, 54, 53);
+    text-align: center;
 }
